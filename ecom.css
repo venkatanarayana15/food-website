@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(249, 232, 232);
+}
+nav {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  font-size: small;
+}
+
+.log {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.logo {
+  margin-top: 150px;
+}
+.one {
+  background-color: rgb(245, 243, 241);
+  justify-content: center;
+  text-align: center;
+}
+.two {
+  background-color: rgb(245, 243, 241);
+  text-align: center;
+}
+header {
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  margin: 3px;
+}
+button {
+  padding: 8px;
+  margin: 5px;
+}
